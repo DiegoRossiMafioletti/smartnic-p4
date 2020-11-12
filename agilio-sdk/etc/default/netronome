@@ -1,0 +1,15 @@
+CTL_SCRIPT=/opt/nfp_pif/scripts/pif_ctl_nfd.sh
+LOAD_NETDEV=1
+NUM_VFS=16
+NFPSHUTILS=/opt/nfp_pif/scripts/shared/nfp-shutils
+DISABLE_NFD=no
+DETECT_MAC=yes
+LD_LIBRARY_PATH=/opt/netronome/lib:/opt/nfp_pif/lib:$LD_LIBRARY_PATH
+#FW_FILE=<path_to_firmware_file>
+#DESIGN_FILE=<path_to_p4_design_file>
+#CFG_FILE=<path_to_configuration_file>
+#NBI_DMA8_JSON=/opt/nfp_pif/etc/configs/platform_dma8_config.json
+#NBI_MAC8_JSON=/opt/nfp_pif/etc/configs/platform_mac8_config.json
+#NBI_TM_JSON=nfp_nbi_tm_12x10GE.json
+PARAMS="--ignore-incompatible-load"
+NFP_RPC_PORT=20206
